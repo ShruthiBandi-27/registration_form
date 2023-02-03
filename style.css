@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+/* div {
+    background-color: rgb(222, 198, 245);
+} */
+
+.login_user_card {
+    height: 300px;
+    width: 350px;
+    margin-top: 150px;
+}
+
+.register_user_card {
+    height: 550px;
+    width: 350px;
+    margin-top: 50px;
+}
+.user_card {
+    /* height: 550px;
+    width: 350px; */
+    /* margin-top: auto;
+    margin-bottom: auto; */
+    background-color: rgb(220, 196, 242);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 5px;
+    /* margin-top: 50px; */
+}
+
+.form_container {
+    margin-top: 10px
+}
+
+ .login_btn {
+
+    background-color:#4B0DBA;
+    color: white
+}
+
+.login_btn:hover {
+    background-color: #6e46b2 ;
+    color: white;
+}
+
+.login_container {
+    border-radius: 10px;
+}
+
+.my_container {
+    margin-top: 100px;
+}
+
+.myh1 {
+    margin-top: 20px;
+}
